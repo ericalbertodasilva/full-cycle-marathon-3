@@ -30,3 +30,10 @@ python manage.py shell
 
  - Configurar pqadmin
 
+ - Marcar a imagem antes de enviar para docker hub
+
+docker tag hello-world eadasilva/iniciando-django-app
+
+  -  enviar a imagem para docker hub
+
+docker login ; docker push eadasilva/iniciando-django-app
